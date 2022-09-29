@@ -1,0 +1,15 @@
+ul ul li:first-child {
+    color: red;
+}
+ul ul li:last-child {
+    color:green;
+}
+ul li:nth-child(2) ul {
+    color: orange;
+}
+ul span:hover + ul {
+    background-color: darkred;
+}
+ul li ul li  {
+    list-style-image:url("arrow.png");
+}
